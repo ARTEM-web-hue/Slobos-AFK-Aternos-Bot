@@ -1,14 +1,14 @@
 {
-  "name": "AFK Bot",
+  "name": "Hardcore",
   "bot-account": {
-    "username": "Slobot00",
+    "username": "HardcoreAFK",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "slobtest1.aternos.me",
-    "port": 27586,
-    "version": "",
+    "ip": "Hardcore2artema.aternos.me",
+    "port": 56124,
+    "version": "1.21.1",
     "try-creative": false
   },
   "position": {
@@ -19,7 +19,7 @@
   },
   "utils": {
     "auto-auth": {
-      "enabled": true,
+      "enabled": false,
       "password": "chalol78"
     },
     "anti-afk": {
@@ -29,38 +29,36 @@
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 120,
+      "repeat-delay": 1800,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
+        "Я все еще АФК!"
       ]
     },
     "chat-log": true,
     "auto-reconnect": true,
     "auto-reconnect-delay": 2000,
-    "max-reconnect-delay": 120000
+    "max-reconnect-delay": 2001
   },
   "movement": {
     "enabled": true,
     "circle-walk": {
-      "enabled": true,
-      "radius": 4,
+      "enabled": false,
+      "radius": 1,
       "speed": 3000
     },
     "look-around": {
-      "enabled": true,
+      "enabled": false,
       "interval": 5000
     },
     "random-jump": {
       "enabled": true,
-      "interval": 10000
+      "interval": 1800
     }
   },
   "modules": {
     "avoidMobs": true,
     "combat": true,
-    "beds": false,
+    "beds": true,
     "chat": true,
     "console-commands": true
   },
@@ -69,8 +67,8 @@
     "auto-eat": true
   },
   "beds": {
-    "pick-up-day": false,
-    "place-night": false
+    "pick-up-day": true,
+    "place-night": true
   },
   "discord": {
     "enabled": false,
